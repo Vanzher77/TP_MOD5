@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+<<<<<<< HEAD
 using System.Security.Cryptography.X509Certificates;
 public class program
 {
@@ -27,3 +28,19 @@ class DataGeneric<T>
         Console.WriteLine("Data yang tersimpan adalah: " + Data);
     }
 }
+=======
+public  class HaloGeneric
+{
+    private static void Main(string[] args)
+    {
+        
+        Console.WriteLine("Halo User" + SapaUser(" Vanzher"));
+    }
+    public static Generic SapaUser <Generic>(Generic a)
+    {
+        return (dynamic) a;
+    }
+    
+
+}
+>>>>>>> generic-method
